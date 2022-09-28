@@ -77,9 +77,17 @@ The purpose of this tutorial is to provide an expression to search for hex value
 
 ### Greedy and Lazy Match
 
-* Greedy patterns ".+" 
+* Regex will return a "greedy" match by default, meaning the match will be as long as possible. We can use "?" to opt for a "lazy" match instead, meaning the match will return as short as possible. 
+* Example: we have a string "abcdefghijkc" and the expression "a.*c" we're going to start at "a" through "c" a greedy match will return "abcdefghijkc" and a lazy match will return "abc" once the lazy hits the first "c" it stops.
 
 ### Boundaries
+
+* A word boundary can occur in one of three positions: 
+1. Before the first character in the string 
+2. After the last character in the string
+3. Between two characters in the string, notating a word character
+
+* Example: 
 
 ### Back-references
 
