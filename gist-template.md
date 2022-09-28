@@ -4,7 +4,7 @@ Regular expressions (regex) are special strings that are used for searching text
 
 ## Summary
 
-The purpose of this tutorial is to provide an expression to search for hex values as well put together a general understanding for regex. By the end of this tutorial you will have a undestanding on how to use regular expressions on a basic level and become more fluent with regex syntax.
+The purpose of this tutorial is to provide an expression to search for hex values as well put together a general understanding for regex. By the end of this tutorial you will have a undestanding on how to use regular expressions on a basic level and become more familiar with regex syntax.
 
  /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
@@ -18,9 +18,9 @@ The purpose of this tutorial is to provide an expression to search for hex value
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Character Escapes](#character-escapes)
+- [Author Info](#author)
+
 
 ## Regex Components
 
@@ -82,11 +82,13 @@ The purpose of this tutorial is to provide an expression to search for hex value
 
 ### Character Escapes
 
-* 
+* The "/" tag notates the escape of a charcater that has a special meaning inside a regex.
+* Use the backslash to escape a character. Example: "/\\b/" This will match \b instead of a integer.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hello! Thanks for checking out my Regular Expressions Tutorial! I am an aspiring coder on the back end of completing a Coding Bootcamp. Im always looking to learn more, share ideas and make new connections. <br>
 
-<!-- Greedy: Keep searching until condition is not satisfied.
-Lazy: Stop searching once condition is satisfied. -->
+<br>[Github: Korbynd23](https://github.com/korbynd23)
+
+
